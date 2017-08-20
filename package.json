@@ -1,0 +1,26 @@
+{
+  "name": "srcmapplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "v": ".\\node_modules\\.bin\\webpack -version",
+    "cd": ".\\node_modules\\.bin\\webpack  --optimize-minimize",
+    "cp": "cross-env NODE_ENV=production PLATFORM=web .\\node_modules\\.bin\\webpack --optimize-minimize"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "cross-env": "^5.0.5",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^2.7.0"
+  }
+}
