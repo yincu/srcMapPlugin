@@ -83,7 +83,8 @@ var config = {
         modules: ['src', "node_modules" ]
     },
     //devtool: process.env.NODE_ENV === 'production' ? 'source-map' :'cheap-module-eval-source-map'
-    devtool: 'source-map',
+    // devtool: 'source-map',
+    devtool: false,
 };
 
 console.log('Now, the NODE_ENV:', process.env.NODE_ENV);

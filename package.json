@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "v": "webpack -version",
-    "cd": "webpack  --optimize-minimize",
+    "cc": ".\\node_modules\\.bin\\webpack   ",
+    "cd": ".\\node_modules\\.bin\\webpack   -p",
     "cp": "cross-env NODE_ENV=production PLATFORM=web .\\node_modules\\.bin\\webpack --optimize-minimize"
   },
   "author": "",
@@ -20,6 +21,7 @@
     "cross-env": "^5.0.5",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
+    "uglify-js": "^3.0.28",
     "webpack": "^2.7.0"
   },
   "repository": {
